@@ -1,0 +1,81 @@
+#   This file is to run the MD calculations to generate the trajectory
+#
+
+Geometry = GenFormat {
+   <<< "p4.gen"
+}
+
+Driver = VelocityVerlet {
+  MovedAtoms = 1:-1
+  Steps = 10000
+  TimeStep [fs] = 1.0
+  KeepStationary = Yes
+  OutputPrefix = "md"
+  Thermostat = NoseHoover {
+    Temperature [Kelvin] = 273.15
+    CouplingStrength [cm^-1] = 300
+
+  }
+}	       			
+
+Hamiltonian = DFTB {
+  SCC = Yes
+  SlaterKosterFiles = Type2FileNames {
+    Prefix = "/panasas/scratch/grp-alexeyak/alexey/phosphorene_dftb/3ob-3-1/"
+    Separator = "-"
+    Suffix = ".skf"
+  }
+  MaxAngularMomentum = {
+    P = "p"
+  }
+  Dispersion = LennardJones {
+    Parameters = UFFParameters {}
+  }
+  Filling = Fermi {
+    Temperature [K] = 0.00
+  }
+
+  KPointsAndWeights = SupercellFolding {
+     3  0  0 
+     0  3  0 
+     0  0  1
+     0.0  0.0  0.0
+  } 
+
+
+  #Dispersion = DftD3 {
+  #  Damping = BeckeJohnson {
+  #    a1 = 0.746
+  #    a2 = 4.191
+  #  }
+  #  s6 = 1.0
+  #  s8 = 3.209
+  #}
+
+
+}
+
+#ExcitedState {
+#  Casida {
+#    NrOfExcitations    = 5
+#    StateOfInterest    = 0
+#    Symmetry           = singlet
+#    EnergyWindow [eV]  = 5.0
+#    ExcitedStateForces = no
+#    WriteTransitions = yes
+#  }
+#}
+
+
+
+Options = {
+  WriteAutotestTag = Yes
+#  WriteEigenvectors = Yes
+}
+
+Analysis = {
+}
+
+ParserOptions = {
+  ParserVersion = 4
+}
