@@ -1,0 +1,142 @@
+SLURM_JOBID=6752274
+SLURM_JOB_NODELIST=cpn-f11-11
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6752274
+working directory=/panfs/panfs.cbls.ccr.buffalo.edu/scratch/grp-alexeyak/alexey/phosphorene/3_nac/pristine/wd/job1
+ The MKL Libraries are in your library path. This is adequate for compiling and
+running most codes. Source $MKL/bin/mklvars.sh" for more features. 
+[cpn-f11-11.cbls.ccr.buffalo.edu:30271] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:30275] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:30266] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:30277] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:30272] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:30270] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:30276] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:30274] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:30273] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+{'es_software': 'cp2k', 'es_software_input_template': 'cp2k_input_template.inp', 'es_software_exe': 'cp2k.psmp', 'nprocs': '9', 'project_name': 'pristine', 'trajectory_xyz_filename': 'pristine-pos-1.xyz', 'logfile_directory': 'logfiles', 'number_of_states': 10, 'tolerance': 0.0, 'isUKS': 0, 'min_band': 150, 'max_band': '170', 'ks_orbital_homo_index': '160', 'istep': '5099', 'nsteps_this_job': '101', 'njob': '1', 'res_dir': '/panasas/scratch/grp-alexeyak/alexey/phosphorene/3_nac/pristine/res', 'dt': 41.341374575751, 'completion_level': 0, 'do_phase_corrections': 1, 'perform_state_reordering': 0, 'do_state_reordering': 2, 'state_reordering_alpha': 0.0, 'do_cube_visualization': 0, 'path_to_tcl_file': '/panasas/scratch/grp-alexeyak/alexey/phosphorene/3_nac/pristine/cube.tcl', 'states_to_be_plotted': '0', 'MO_images_directory': '/panasas/scratch/grp-alexeyak/alexey/phosphorene/3_nac/pristine/MO_images_directory'}
+cp2k  calculation time for step  5099  was  749.4165081977844
+Reading the initial step using pool
+nprocs 9
+/projects/academic/cyberwksp21/Software/Conda/Miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/cyberwksp21/Software/Conda/Miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/cyberwksp21/Software/Conda/Miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/cyberwksp21/Software/Conda/Miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<float, std::allocator<float> >, std::allocator<std::vector<float, std::allocator<float> > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/cyberwksp21/Software/Conda/Miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/cyberwksp21/Software/Conda/Miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<double, std::allocator<double> >, std::allocator<std::vector<double, std::allocator<double> > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/cyberwksp21/Software/Conda/Miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+/projects/academic/cyberwksp21/Software/Conda/Miniconda3/envs/libra/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: to-Python converter for boost::python::detail::container_element<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, unsigned long, boost::python::detail::final_vector_derived_policies<std::vector<std::vector<std::complex<double>, std::allocator<std::complex<double> > >, std::allocator<std::vector<std::complex<double>, std::allocator<std::complex<double> > > > >, false> > already registered; second conversion method ignored.
+  return f(*args, **kwds)
+[cpn-f11-11.cbls.ccr.buffalo.edu:31811] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:31808] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:31809] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:31813] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:31815] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:31816] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:31814] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:31810] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:31812] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+Initial step for this job, the cube file names are:
+ ['cubefiles/pristine-5099-WFN_00150_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00151_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00152_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00153_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00154_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00155_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00156_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00157_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00158_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00159_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00160_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00161_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00162_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00163_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00164_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00165_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00166_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00167_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00168_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00169_1-1_0.cube', 'cubefiles/pristine-5099-WFN_00170_1-1_0.cube']
+Removing cubefiles
+Elapsed time for step  5100  was  699.5328857898712
+---------------------------------------------------------
+Starting the calculations by reading the cube files    
+
+                    Step time 5100
+
+-------------------------------------------------------
+
+Reading cube files with 9 number of processors
+[cpn-f11-11.cbls.ccr.buffalo.edu:32595] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:32598] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:32599] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:32602] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:32603] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:32601] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:32600] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:32596] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:32597] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+Reading the cubes for step  5100
+Elapsed time for step  5101  was  632.6669037342072
+---------------------------------------------------------
+Starting the calculations by reading the cube files    
+
+                    Step time 5101
+
+-------------------------------------------------------
+
+Reading cube files with 9 number of processors
+[cpn-f11-11.cbls.ccr.buffalo.edu:01447] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:01448] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:01446] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:01441] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:01445] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:01443] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:01449] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:01442] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:01444] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+Reading the cubes for step  5101
+Elapsed time for step  5102  was  642.1055438518524
+---------------------------------------------------------
+Starting the calculations by reading the cube files    
+
+                    Step time 5102
+
+-------------------------------------------------------
+
+Reading cube files with 9 number of processors
+[cpn-f11-11.cbls.ccr.buffalo.edu:02241] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:02235] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:02236] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:02237] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:02239] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:02238] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:02242] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:02243] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:02240] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+Reading the cubes for step  5102
+Elapsed time for step  5103  was  634.1854476928711
+---------------------------------------------------------
+Starting the calculations by reading the cube files    
+
+                    Step time 5103
+
+-------------------------------------------------------
+
+Reading cube files with 9 number of processors
+[cpn-f11-11.cbls.ccr.buffalo.edu:03417] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:03412] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:03420] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:03419] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:03415] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:03418] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:03411] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:03414] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:03416] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+Reading the cubes for step  5103
+Elapsed time for step  5104  was  700.3616316318512
+---------------------------------------------------------
+Starting the calculations by reading the cube files    
+
+                    Step time 5104
+
+-------------------------------------------------------
+
+Reading cube files with 9 number of processors
+[cpn-f11-11.cbls.ccr.buffalo.edu:04761] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:04766] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:04760] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:04762] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:04763] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:04767] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:04768] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:04764] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
+[cpn-f11-11.cbls.ccr.buffalo.edu:04765] mca_base_component_repository_open: unable to open mca_io_romio314: libgpfs.so: cannot open shared object file: No such file or directory (ignored)
