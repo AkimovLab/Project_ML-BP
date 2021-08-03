@@ -1,0 +1,8 @@
+SLURM_JOBID=6646211
+SLURM_JOB_NODELIST=cpn-p27-29
+SLURM_NNODES=1
+SLURMTMPDIR=/scratch/6646211
+working directory=/panfs/panfs.cbls.ccr.buffalo.edu/scratch/grp-alexeyak/alexey/phosphorene/divac1_tddft
+NPROCS=9
+ The MKL Libraries are in your library path. This is adequate for compiling and
+running most codes. Source $MKL/bin/mklvars.sh" for more features. 
